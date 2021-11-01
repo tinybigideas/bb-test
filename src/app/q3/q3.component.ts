@@ -1,3 +1,5 @@
+// Routes question
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,10 +8,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./q3.component.scss']
 })
 export class Q3Component implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

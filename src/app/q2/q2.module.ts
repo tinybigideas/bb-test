@@ -1,17 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
 
 import { Q2RoutingModule } from './q2-routing.module';
-import { Q2Component } from './q2.component';
-
-
+import { AutocompleteComponent } from './q2.component';
 @NgModule({
-  declarations: [
-    Q2Component
-  ],
-  imports: [
-    CommonModule,
-    Q2RoutingModule
-  ]
+  declarations: [AutocompleteComponent],
+  imports: [CommonModule, HttpClientModule, Q2RoutingModule]
 })
-export class Q2Module { }
+export class Q2Module {}
